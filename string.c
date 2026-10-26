@@ -7,7 +7,7 @@ char keyword[50];
 printf("string:%s\n",str);
 printf("enter the keyword to search:");
 scanf("%s",&keyword);
-for(strstr(str,keyword)!=NULL)
+if(strstr(str,keyword)!=NULL)
 {
 printf("YES,keyword is found:");
 }
